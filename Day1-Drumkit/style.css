@@ -6,4 +6,52 @@ html{
     font-size: 62.5%;
 }
 
+body{
+    font-family: 'Montserrat';
+    height: 100vh;
+    background-image: url(assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.keys{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.key{
+    height: 70px;
+    width: 80px;
+    border: 4px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 7px;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    cursor: pointer;
+    transition: 0.05s;
+}
+
+.key kbd{
+    color: #fff;
+    font-size: 3rem;
+}
+
+.sound{
+    color: yellow;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.key:hover{
+    border-color: yellow;
+    transform: scale(1.1);
+}
 
