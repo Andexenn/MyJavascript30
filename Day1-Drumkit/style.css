@@ -50,7 +50,7 @@ body{
     text-transform: uppercase;
 }
 
-.key:hover{
+.playing{
     border-color: yellow;
     transform: scale(1.1);
 }
